@@ -64,7 +64,6 @@ public class HitServlet extends HttpServlet {
 				for (int i = 0; i < users.size(); i++) {
 					System.out.println(users.get(i));
 				}
-				stmt.executeUpdate("INSERT INTO users (ID, UserId, Password) VALUES (6969,'If you see this, then this is working','Yes yes')");
 			}
 
 
